@@ -1,2 +1,2 @@
-# configs
+# Dotfiles
 Personal config files repository
