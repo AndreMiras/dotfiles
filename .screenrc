@@ -1,0 +1,16 @@
+hardstatus alwayslastline
+hardstatus string '%{Yk}%-w%{.Yk}%n %t%{-}%+w %=%{.w} %{kY}%C'
+shell -$SHELL
+deflogin on
+backtick 1 5 5 uptime
+bind f eval "caption splitonly" "hardstatus ignore"
+bind F eval "caption always" "hardstatus alwayslastline"
+
+#defscrollback 12000
+##bind ^j focus down
+##bind ^k focus up
+##bind ^t focus top
+##bind ^b focus bottom
+##caption always "%{= kb}[ %{G}%H::$USER %{b}][ %=%{w}%?%-Lw%?%{b}(%{W}%n %t%?(%u)%?%{b})%{w}%?%+Lw%?%?%= %{b}][%{G} %Y.%m.%d %{W}%0c %{b}]"
+##caption splitonly "%{= kb}[ %{G}%H::$USER %{b}][ %=%{w}%?%-Lw%?%{b}(%{W}%n %t%?(%u)%?%{b})%{w}%?%+Lw%?%?%= %{b}][%{G} %Y.%m.%d %{W}%0c %{b}]"
+#caption string "%w"
