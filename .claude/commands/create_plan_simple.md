@@ -1,5 +1,10 @@
+---
+description: Create detailed implementation plans through interactive research and iteration
+model: opus
+---
+
 <!--
-Attribution: Forked from https://github.com/humanlayer/humanlayer/blob/v0.12.0/.claude/commands/
+Attribution: Forked from https://github.com/humanlayer/humanlayer/blob/v0.14.0/.claude/commands/
 Modified to work with regular Claude Code license (removed MCP/HumanLayer dependencies)
 -->
 

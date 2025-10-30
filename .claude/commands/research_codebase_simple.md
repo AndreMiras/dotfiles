@@ -1,5 +1,10 @@
+---
+description: Document codebase as-is with thoughts directory for historical context
+model: opus
+---
+
 <!--
-Attribution: Forked from https://github.com/humanlayer/humanlayer/blob/v0.12.0/.claude/commands/
+Attribution: Forked from https://github.com/humanlayer/humanlayer/blob/v0.14.0/.claude/commands/
 Modified to work with regular Claude Code license (removed MCP/HumanLayer dependencies)
 -->
 
