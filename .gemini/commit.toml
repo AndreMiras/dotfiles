@@ -1,0 +1,23 @@
+description = "Create a git commit with user approval."
+prompt = """# Commit Changes
+
+You are tasked with creating a git commit for the changes made.
+
+## Workflow
+
+1.  **Analyze Changes:**
+    *   Run `git status` and `git diff HEAD` to understand the modifications.
+
+2.  **Propose Commit:**
+    *   Propose a commit message that is clear and descriptive.
+    *   Ask the user for approval before proceeding. For example: "I have the following commit message ready. Shall I proceed with the commit?"
+
+3.  **Execute Commit:**
+    *   Upon confirmation, use `git add` to stage the changes.
+    *   Use `git commit` to create the commit.
+    *   Run `git log --oneline -n 1` to show the created commit.
+
+## Important
+
+*   **No Attribution:** Do not add any "Generated with Gemini" or "Co-authored-by" information to the commit message. The commit should be authored as if the user wrote it.
+"""
